@@ -83,9 +83,7 @@ everything required to run:
 At this present time of writing:
 3 tests and 7 assertions (all) passed in 473 milliseconds, using 15.75MB of memory.
 
-Any feedback is gratefully received. Please visit www.chrishardcastle.co.uk for more information.
-
-Thanks for your interest in my work and taking a look at technical test result.
+----
 
 ###### The first part of the technical test has already been submitted. This is the second half which completes the test.
 ###### Thanks for reviewing my answers | Chris Hardcastle | www.chrishardcastle.co.uk | 12th August 2016
