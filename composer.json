@@ -1,0 +1,21 @@
+{
+    "name": "chrishardcastle/address-lookup",
+    "description": "Technical test",
+    "require": {
+        "phpunit/phpunit": "^4.1",
+        "fzaninotto/faker": "^1.6",
+        "guzzlehttp/guzzle": "*"
+    },
+    "authors": [
+        {
+            "name": "Chris Hardcastle",
+            "email": "me@chrishardcastle.co.uk"
+        }
+    ],
+    "minimum-stability": "beta",
+    "autoload": {
+        "psr-4": {
+            "Hardcastle\\Map\\": "lib/Hardcastle/Map/"
+        }
+    } 
+}
