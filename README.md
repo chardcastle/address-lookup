@@ -41,6 +41,14 @@ A number of assumptions were made on the brief:
 * Some test driven development was allowable.
 * Where appropriate, test data didn't have to be accurate.
 * Empty search results are not added to the CSV file.
+* It was not necessary to maintain PSR-2 code compliance.
+
+### Installation
+
+1) Download or clone the work from https://github.com/chardcastle/address-lookup.git
+2) Navigate to the project directory
+3) Install composer and run composer install to import the necessary dependancies.
+4) Ensure write permissions to the data folder.
 
 ### Usage
 

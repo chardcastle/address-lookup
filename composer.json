@@ -1,5 +1,5 @@
 {
-    "name": "chrishardcastle/address-lookup",
+    "name": "chardcastle/address-lookup",
     "description": "Technical test",
     "require": {
         "phpunit/phpunit": "^4.1",

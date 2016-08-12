@@ -70,6 +70,11 @@ class Result {
 		return $this;
 	}
 	
+	/**
+	 * Get header row for CSV file
+	 * 
+	 * @return array Collection of feilds
+	 */
 	private function toCsvHeader()
 	{
 		return [
@@ -79,6 +84,13 @@ class Result {
 			"Longitude",
 		];
 	}
+
+	/**
+	 * Gets the data values for inclusion 
+	 * as a CSV line item
+	 * 
+	 * @return array Collection of data values
+	 */
 	private function toCsvLineItem()
 	{
 		return [
@@ -89,6 +101,12 @@ class Result {
 		];
 	}
 
+	/**
+	 * Write the result as an entry within a 
+	 * CSV file
+	 * @param  string $fileName Name of the desired CSV file (default results.csv)
+	 * @return boolean           True on successful write
+	 */
 	public function save($fileName = 'results.csv')
 	{
 		$destination = __DIR__ . '/../../../data/' . $fileName;
