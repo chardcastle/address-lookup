@@ -1,9 +1,10 @@
-# Technical Test Response (part 2 of 2)
+# Chris Hardcastle
+### Technical Test Submission (part 2 of 2)
 
 This work was prepared and written by Chris Hardcastle in response to the brief below.
 The work was briefed as a technical test.
 
-## Brief
+### Brief
 
 This work is the result of my answer to the technical test as briefed below:
 
@@ -29,16 +30,42 @@ Some pointers:
 4. You are free to code it however you wish, but we would like some notes explaining any decisions you made e.g. structure of your code, why you chose to use a particular library, design pattern, and so on.
 
 
-## Assumptions
+### Assumptions
 
 A number of assumptions were made on the brief:
 
 * The script should handel cases where no results were found.
+* The script could terminate with a small message as a response.
+* The script doesn't need to terminate with JSON or behave in a RESTful way.
 * No frontend is required for this work.
-* It's a good opportunity to demonstrate some test driven development.
+* Some test driven development was allowable.
+* Where appropriate, test data didn't have to be accurate.
+* Empty search results are not added to the CSV file.
 
+### Usage
 
-## Test instructions
+Open your command line editor or terminal.
+
+1) Search for an unknown address
+> php api.php "xxxxxxx"
+
+2) Search for a valid address
+> php api.php "10 downing street, London"
+
+Any other uses should invoke the default (help) response.
+
+In the event of a successfully matched address (2), the following information is appended to a CSV file located ```data/results.csv```:
+
+* PostCode
+* PlaceId
+* Latitude
+* Longitude
+
+The test (csv) file is the result of automated testing and may not event exist unless the tests have been run.
+
+You're welcome to delete the csv files at any point, they will make a fresh return the next time the script runs.
+
+### Test instructions
 
 Install and run composer in the same document root directory, this provides
 everything required to run:
@@ -52,3 +79,5 @@ Any feedback is gratefully received. Please visit www.chrishardcastle.co.uk for 
 
 Thanks for your interest in my work and taking a look at technical test result.
 
+###### The first part of the technical test has already been submitted. This is the second half which completes the test.
+###### Thanks for reviewing my answers | Chris Hardcastle | www.chrishardcastle.co.uk | 12th August 2016
